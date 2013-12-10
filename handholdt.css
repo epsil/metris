@@ -1,0 +1,72 @@
+blockquote, h1, h2, li, ul, .innhold, .l, .linje {
+     background: transparent;
+     border: none;
+     height: auto;
+     line-height: 1;
+     margin: 0;
+     padding: 0;
+     vertical-align: baseline;
+     width: auto;
+}
+a {
+     color: #0000FF;
+     text-decoration: underline;
+}
+body, html {
+     font-family: sans-serif;
+     line-height: 1;
+}
+body {
+     background: #FFFFFF;
+     padding: 0;
+}
+blockquote {
+     font-style: italic;
+     margin: 0 2em 0 2em;
+}
+blockquote em {
+     font-style: normal;
+}
+h2 {
+     color: #9f2b00;
+     font-size: 1em;
+     font-style: italic;
+     text-indent: 0;
+}
+h3 {
+     font-size: 1em;
+     margin: 0 0 .5em 0;
+     padding: 0;
+}
+fieldset, p, .metrissitat {
+     margin: 1em 0 1em 0;
+}
+li {
+     margin-left: 2em;
+}
+ul {
+     list-style-type: disc;
+}
+.gjem {
+     clear: both;
+     display: block;
+}
+.innhold {
+     margin: auto;
+}
+.metrissitat {
+     float: none;
+     padding: 0;
+     font-size: 1em;
+}
+.l, .metrissitat cite, .metrissitat .gjem {
+     color: #000000;
+     display: inline;
+}
+.metrissitat .sitatstart, .metrissitat .sitatslutt {
+     color: #000000;
+     font-size: 1em;
+}
+.venstre {
+     float: left;
+}
